@@ -31,7 +31,7 @@ export default function Introduction() {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary rounded-full blur-lg opacity-75"></div>
             <Image
-              src="/profile.jpeg?height=300&width=300"
+              src="/profile.jpg?height=300&width=300"
               alt="Profile Picture"
               width={300}
               height={300}
@@ -51,7 +51,7 @@ export default function Introduction() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            Tejas Chaudhari
+            Raj Diwate
           </motion.h1>
           <motion.h2 
             className="text-2xl text-muted-foreground mb-4"
@@ -67,7 +67,7 @@ export default function Introduction() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
           >
-            Hello! I am a Full Stack Engineer specializing in Next.js, TypeScript, and React. I build end-to-end web solutions, from RESTful APIs to automation workflows. With experience in both dynamic and static websites, I excel at executing complex projects independently in remote environments.
+            Hello! I am a Full Stack Engineer specializing in  React , Node , Express , javascript TypeScript, and Next.js. I build end-to-end web solutions, from RESTful APIs to automation workflows. With experience in both dynamic and static websites, I excel at executing complex projects independently in remote environments.
           </motion.p>
           <motion.div 
             className="mt-4"
@@ -76,7 +76,7 @@ export default function Introduction() {
             transition={{ duration: 0.5, delay: 0.6 }}
           >
             <Button asChild className="bg-gradient-to-r from-primary to-secondary text-primary-foreground">
-              <a href="/Tejas Chaudhari.pdf" download>
+              <a href="/Raj_cv_resume_2025.pdf" download>
                 <FileDown className="mr-2 h-4 w-4" /> Download Resume
               </a>
             </Button>

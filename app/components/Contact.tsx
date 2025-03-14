@@ -16,7 +16,7 @@ export default function Contact() {
   const { toast } = useToast()
 
   // Add your Web3Forms access key here
-  const ACCESS_KEY = 'b81765b3-b460-45ee-b051-edeb80a53108'
+  const ACCESS_KEY = '41237591-f4b8-4770-933e-72dbe60abc9b'
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()

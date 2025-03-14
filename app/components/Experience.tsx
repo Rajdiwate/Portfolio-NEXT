@@ -6,23 +6,23 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 export default function Experience() {
   const experiences = [
     {
-      title: "Junior Web Developer",
-      company: "Zummit Infolabs",
-      duration: "Feb 2023 - May 2023",
-      description: "Developed responsive web applications using React JS and collaborated with senior developers to implement dynamic user interfaces, resulting in improved application interactivity and user experience."
+      title: "Front End Developer",
+      company: "Meask",
+      duration: "December 2024 - Present",
+      description: " Developed reusable components to facilitate faster development timelines and improve overall code quality. Collaborated with cross-functional teams to develop seamless integration of APIs, improving data flow within applications.Utilized Redux Toolkit for global state management , react router dom for seamless navigations. "
+    },
+    {
+      title: "Python Developer Intern",
+      company: "InternPe, Remote",
+      duration: "March 2023 - April 2023",
+      description: "Developed a notes application using Django and Django Rest Framework. Designed RESTful APIs to handle data interactions betweenfrontend and backend"
     },
     {
       title: "Web Developer Intern",
-      company: "TwoWaits",
-      duration: "Feb 2022 - Marach 2022",
-      description: "Served as a Tathastu Web Development Scholar Intern at TwoWaits Technologies Pvt. Ltd., where I focused on web development and improving my technical skills."
-    },
-    // {
-      // title: "Open Source Contributor",
-      // company: "Various Projects",
-      // duration: "2021 - Present",
-      // description: "Contributed to several open-source projects, focusing on accessibility and performance improvements."
-    // }
+      company: "TXON, Remote",
+      duration: "June 2022 - July 2022",
+      description: "Developed the Landing Page of with React.js, implementing core UI features and managing state with Redux. Enhanced website functionality by optimizing code and implementing new features"
+    },  
   ]
 
   return (

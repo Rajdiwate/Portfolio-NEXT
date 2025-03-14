@@ -1,14 +1,14 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Twitter } from 'lucide-react'
+import { Github, Linkedin, Code  } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export default function SocialMedia() {
   const socialLinks = [
-    { name: 'GitHub', icon: Github, url: 'https://github.com/Tej197' },
-    { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/tejaschaudhari197/' },
-    // { name: 'Twitter', icon: Twitter, url: 'https://twitter.com' },
+    { name: 'GitHub', icon: Github, url: 'https://github.com/Rajdiwate' },
+    { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/rajdiwate/' },
+    { name: 'LeetCode', icon: Code, url: 'https://leetcode.com/u/rajdiwate786/' },
   ]
 
   return (

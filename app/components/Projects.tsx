@@ -10,26 +10,34 @@ import { Github, ExternalLink } from 'lucide-react'
 export default function Projects() {
   const projects = [
     {
-      title: "Welth",
-      description: "Manage Your Finances with Intelligence",
-      image: "/Project2.jpg?height=200&width=300",
-      link: "https://welth-eight.vercel.app/",
-      code: "https://github.com/Tej197/Welth"
+      title: "MyBlogs",
+      description: " An online platform that allows users to create, publish, and manage blog posts",
+      image: "/MyBlogs.png?height=200&width=300",
+      link: "https://my-blogs-lemon.vercel.app/",
+      code: "https://github.com/Rajdiwate/MyBlogs"
     },
     {
-      title: "PowerHub",
-      description: " Fitness Exercises App using React JS ",
-      image: "/Project1.png?height=200&width=300",
-      link: "https://powerhubproject.netlify.app/",
-      code: "https://github.com/Tej197/PowerHub"
-    },
-    {
-      title: "SchoolPro",
-      description: "A Full-Stack school admin dashboard app",
-      image: "/Project3.jpg?height=200&width=300",
+      title: "SilentSender",
+      description: " An app that allows users to send messages to others without revealing their identity. ",
+      image: "/SilentSender.png?height=200&width=300",
       link: "#",
-      code: "https://github.com/Tej197/SchoolPro"
-    }
+      code: "https://github.com/Rajdiwate/SilentSender"
+    },
+    {
+      title: "Tast Management",
+      description: "A Full-Stack MERN task management app is a digital tool that helps users organize, track, and manage their tasks efficiently",
+      image: "/TaskManagement.png?height=200&width=300",
+      link: "https://task-management-mern-dun.vercel.app/",
+      code: "https://github.com/Rajdiwate/TaskManagement-MERN"
+    },
+    {
+      title: "TextUtils",
+      description: "A Text Utils App is a simple web application that provides various text manipulation utilities ",
+      image: "/TextUtils.png?height=200&width=300",
+      link: "#",
+      code: "https://github.com/Rajdiwate/TextUtils"
+    },
+
   ]
 
   return (

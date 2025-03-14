@@ -7,9 +7,9 @@ import { GraduationCap } from 'lucide-react'
 export default function Education() {
   const education = {
     degree: "B.E in Computer Engineering",
-    institution: "Sinhgad Institute, SPPU",
+    institution: "Sinhgad College of Engineering, Pune",
     duration: "2020-2024",
-    cgpa: "8.28"
+    cgpa: "8.63"
   }
 
   return (

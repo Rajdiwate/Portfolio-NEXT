@@ -24,7 +24,7 @@ export default function Home() {
             <p className="text-center mt-4 mb-8">
               And many more projects are available on my{" "}
               <a
-                href="https://github.com/Tej197"
+                href="https://github.com/Rajdiwate"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
