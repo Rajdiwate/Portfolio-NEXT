@@ -76,7 +76,7 @@ export default function Introduction() {
             transition={{ duration: 0.5, delay: 0.6 }}
           >
             <Button asChild className="bg-gradient-to-r from-primary to-secondary text-primary-foreground">
-              <a href="/Raj_cv_resume_2025.pdf" download>
+              <a href="/Raj_resume_cv_PDE.pdf" download>
                 <FileDown className="mr-2 h-4 w-4" /> Download Resume
               </a>
             </Button>
